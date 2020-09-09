@@ -1,0 +1,12 @@
+item:
+    css: 'h1.a-spacing-none span.a-size-extra-large'
+    xpath: '//h1[contains(concat(" ",normalize-space(@class)," ")," a-spacing-none ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-extra-large ")]'
+    type: Text
+price:
+    css: 'a.a-button-text span.a-color-base span.a-size-base'
+    xpath: null
+    type: Text
+usedFfrom:
+    css: null
+    xpath: '//li[contains(concat(" ",normalize-space(@class)," ")," swatchElement ")][contains(concat(" ",normalize-space(@class)," ")," selected ")]//span[contains(concat(" ",normalize-space(@class)," ")," olp-used ")]'
+    type: Text
